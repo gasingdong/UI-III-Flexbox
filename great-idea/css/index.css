@@ -63,4 +63,100 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+body {
+    margin: 50px;
+    margin-top: 10px;
+    width: 876px;
+}
+
+#smallheader {
+    display: flex;
+    justify-content: center;
+}
+
+#bigheader {
+    margin: 50px;
+    height: 400px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 80px;
+    margin: 20px;
+}
+
+nav {
+    word-spacing: 55px;
+    margin-right: 75px;
+    padding-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: gainsboro;
+}
+
+img {
+    margin: 20px;
+    margin-right: 0px;
+    vertical-align: middle;
+}
+
+img.logo {
+    margin: 0px;
+}
+
+img.header-img {
+    margin-top: 50px;
+}
+
+img.middle-img {
+    margin: 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+button {
+    font-family: 'Titillium Web', sans-serif;
+    background: none;
+    border: 1px solid black;
+    width: 200px;
+    font-size: 20px;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    border-top: 1px solid black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid black;
+}
+
+.content div{
+    padding-right: 6px;
+}
+
+#features, #about {
+    width: 50%;
+}
+
+#services, #product, #vision {
+    width: 33%;
+}
+
+address {
+    padding-top: 30px;
+}
+
